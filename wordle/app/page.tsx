@@ -1,15 +1,12 @@
 import Image from "next/image";
-import GridRow from "./GridRow";
+import Grid from "./Grid";
+import KeyBoard from "./keyBoard";
 
 export default function Home() {
   return (
     <div className="flex h-screen flex-col items-center justify-center">
-      <GridRow />
-      <GridRow />
-      <GridRow />
-      <GridRow />
-      <GridRow />
-      <GridRow />
+      <Grid />
+      <KeyBoard/>
     </div>
   );
 }
